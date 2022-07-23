@@ -5,3 +5,4 @@ slast: slast.c
 
 clean: 
 	rm -f *.o slast
+
