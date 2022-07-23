@@ -20,7 +20,8 @@ static struct var tab[MAXVARS];
 int env_size = 0;
 
 /**
- * 
+ * find_item() looks up `name` in the varibales table.
+ returns a pointer to the found entry, or NULL if not found a corresponding name.
  * */
 static struct var* find_item(char *name, int first_blank){
     int i;
